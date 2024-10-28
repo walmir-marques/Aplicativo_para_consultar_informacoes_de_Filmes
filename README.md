@@ -1,70 +1,47 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Mb-filmes-app 🎬 <br><br>
+Um site onde você pode navegar por uma lista de filmes, pesquisar por filmes, verificar mais informações sobre cada um e salvá-los na sua página de filmes favoritos. <br><br>
 
-## Available Scripts
+## 📋 Descrição <br><br>
 
-In the project directory, you can run:
+O Mb-filmes-app é uma aplicação web projetada para amantes de cinema. Os usuários podem navegar por uma extensa lista de filmes, pesquisar títulos específicos, obter informações detalhadas sobre cada filme e adicionar seus favoritos à lista pessoal. A aplicação é construída utilizando React para uma experiência de usuário interativa e dinâmica. As funcionalidades de persistência de dados são implementadas através do localStorage, permitindo que os usuários mantenham sua lista de favoritos mesmo após atualizar a página. <br><br>
 
-### `npm start`
+## 🛠️ Tecnologias Utilizadas <br><br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React
+- React Router DOM
+- Fetch API
+- LocalStorage
+- CSS <br><br>
+## 💡 Conceitos Aprendidos e Aplicados <br><br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Criação de componentes em React para construção de uma interface interativa
+- Utilização de react-router-dom para gerenciar navegação entre páginas
+- Consumo de APIs externas para busca de dados sobre filmes com o método fetch
+- Persistência de dados utilizando localStorage para armazenar filmes favoritos
+- Estilização da aplicação com CSS para uma aparência agradável e funcional <br><br>
+## 🚀 Funcionalidades <br><br>
 
-### `npm test`
+- Navegação por uma lista de filmes
+- Campo de busca para encontrar filmes específicos
+- Exibição de detalhes sobre cada filme
+- Adição e remoção de filmes na página de favoritos <br><br>
+## 🖥️ Como Executar o Projeto <br><br> 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Faça o download ou clone o repositório:
 
-### `npm run build`
+``` git clone https://github.com/seu-usuario/mb-filmes-app.git ``` <br><br>
+Navegue até o diretório do projeto:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+``` cd mb-filmes-app ``` <br><br>
+Instale as dependências:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+``` npm install ``` <br><br>
+Inicie a aplicação:
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```npm start ``` <br><br>
+Abra o navegador e acesse:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+``` http://localhost:3000 ``` <br><br>
